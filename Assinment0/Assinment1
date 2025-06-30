@@ -1,10 +1,16 @@
-/*1.Check if number is Even or Odd*/
+/* 1.Check if number is Even or Odd
 #include <stdio.h>
 int main() {
-    int num = 7;
-    if (num % 2 == 0)
-        printf("%d is Even\n", num);
+    int no = 7;
+    if (no % 2 == 0)
+    {
+        printf("%d is Even\n", no);
+    }
     else
-        printf("%d is Odd\n", num);
+    {
+        printf("%d is Odd\n", no);
+    }
     return 0;
-}
+}// output = 7 is odd
+
+
