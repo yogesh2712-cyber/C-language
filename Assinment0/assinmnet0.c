@@ -1,5 +1,4 @@
 
-
 /*1. Add two integers*/
 #include <stdio.h>
  void main() {
