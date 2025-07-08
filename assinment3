@@ -1,1 +1,169 @@
+//1. Calculator using operator//
+#include <stdio.h>
+int main() {
+    int a, b, c;
+    printf("Enter three sides of triangle: ");
+    scanf("%d%d%d", &a, &b, &c);
+    if (a == b && b == c)
+{
+        printf("Equilateral triangle\n");
+}
+    else if (a == b || b == c || a == c)
+{
+        printf("Isosceles triangle\n");}
+
+    else
+{
+        printf("Scalene triangle\n");
+}
+    return 0;
+}
+
+//2. Type of triangle//
+#include <stdio.h>
+int main() {
+    int a, b, c;
+    printf("Enter three sides of triangle: ");
+    scanf("%d%d%d", &a, &b, &c);
+    if (a == b && b == c)
+{
+        printf("Equilateral triangle\n");
+}
+    else if (a == b || b == c || a == c)
+{
+        printf("Isosceles triangle\n");
+}
+    else
+{
+        printf("Scalene triangle\n");
+}
+    return 0;
+}
+
+3. Greatest of three numbers using nested if-else
+#include <stdio.h>
+int main() {
+    int a, b, c;
+    printf("Enter three numbers: ");
+    scanf("%d%d%d", &a, &b, &c);
+    if (a > b) {
+        if (a > c)
+{
+            printf("Greatest is %d\n", a);
+}
+        else
+{
+            printf("Greatest is %d\n", c);
+}
+    } else {
+        if (b > c)
+{
+            printf("Greatest is %d\n", b);
+}
+        else
+{
+            printf("Greatest is %d\n", c);
+}
+    }
+    return 0;
+}
+
+4. Class based on marks
+#include <stdio.h>
+int main() {
+    int marks;
+    printf("Enter marks: ");
+    scanf("%d", &marks);
+    if (marks > 75)
+{
+        printf("Distinction\n");
+}
+    else if (marks > 65)
+{
+        printf("First Class\n");
+}
+    else if (marks > 55)
+{
+        printf("Second Class\n");
+}
+    else if (marks >= 40)
+{
+        printf("Pass Class\n");
+}
+    else
+{
+        printf("Fail\n");
+}
+    return 0;
+}
+
+5. Discount based on student and price
+#include <stdio.h>
+int main() {
+    float price, discount = 0;
+    char student;
+    printf("Enter purchase price: ");
+    scanf("%f", &price);
+    printf("Are you a student? (y/n): ");
+    scanf(" %c", &student);
+
+    if (student == 'y' || student == 'Y') {
+        if (price > 500)
+            discount = 0.20;
+        else
+            discount = 0.10;
+    } else {
+        if (price > 600)
+            discount = 0.15;
+        else
+            discount = 0.0;
+    }
+    printf("Discounted amount: %.2f\n", price * (1 - discount));
+    return 0;
+}
+
+6. Divisibility by 3, 5, or both
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    if (num % 3 == 0 && num % 5 == 0)
+      {  printf("Divisible by both\n");
+}
+    else if (num % 3 == 0)
+{
+        printf("Divisible by 3 but not by 5\n");
+}
+    else if (num % 5 == 0)
+{
+        printf("Divisible by 5 but not by 3\n");
+}
+    else
+{
+        printf("Divisible by None\n");
+}
+    return 0;
+}
+ 
+7. Age category
+#include <stdio.h>
+int main() {
+    int age;
+    printf("Enter age: ");
+    scanf("%d", &age);
+    if (age < 12)
+{
+        printf("Child\n");
+}
+    else if (age >= 12 && age <= 19)
+       { printf("Teenager\n");}
+    else if (age >= 20 && age <= 59)
+     {   printf("Adult\n"); }
+    else
+{
+        printf("Senior\n");
+}
+    return 0;
+}
 
