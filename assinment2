@@ -40,7 +40,7 @@ int main() {
     return 0;
 }
 
-3. Greatest of three numbers using nested if-else
+//3. Greatest of three numbers using nested if-else//
 #include <stdio.h>
 int main() {
     int a, b, c;
@@ -68,7 +68,7 @@ int main() {
     return 0;
 }
 
-4. Class based on marks
+//4. Class based on marks//
 #include <stdio.h>
 int main() {
     int marks;
@@ -97,7 +97,7 @@ int main() {
     return 0;
 }
 
-5. Discount based on student and price
+//5. Discount based on student and price//
 #include <stdio.h>
 int main() {
     float price, discount = 0;
@@ -122,7 +122,7 @@ int main() {
     return 0;
 }
 
-6. Divisibility by 3, 5, or both
+//6. Divisibility by 3, 5, or both//
 #include <stdio.h>
 int main() {
     int num;
@@ -146,7 +146,7 @@ int main() {
     return 0;
 }
  
-7. Age category
+//7. Age category//
 #include <stdio.h>
 int main() {
     int age;
